@@ -1,11 +1,16 @@
-import MainCorousel from "./components/corousel/MainCorousel";
+import MainCarousel from "./components/corousel/MainCarousel";
+import Product from "./components/Product/Product";
+import Header from "./components/header/Header";
 
 
 function App() {
   return (
     <>
-    <h1>Hello</h1>
-    <MainCorousel/>
+      <Header/>
+      <main>
+        <MainCarousel />
+        <Product />
+      </main>
     </>
 
   );
