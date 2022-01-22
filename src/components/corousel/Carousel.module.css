@@ -14,16 +14,19 @@
    border-radius: 13px;
 }
 
-.hide {
+.carousel .hide {
     display: none !important;
 }
-
-
 
 
 @media (min-width: 1024px) {
     .carousel {
         width: 40%;
+    }
+
+    .carousel .hide {
+        display: block !important;
+        margin-top: 2em;
     }
     
 }
