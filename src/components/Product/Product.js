@@ -30,13 +30,15 @@ const Product = () => {
             </div>
 
 
-            <div className={classes.control}>
-                <button onClick={decrease}>-</button>
-                <div> {counter} </div>
-                <button onClick={increase} >+</button>
+            <div className={classes.controls}>
+                <div className={classes.control}>
+                    <button onClick={decrease}>-</button>
+                    <div> {counter} </div>
+                    <button onClick={increase} >+</button>
+                </div>
+                <button className={classes.addToCart}>add to cart</button>
             </div>
 
-            <button>add to cart</button>
 
         </div>)
 }

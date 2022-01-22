@@ -22,7 +22,6 @@ const Carousel = React.forwardRef((props, ref) => {
                 <img src={imageproduct4} alt="Image 2" />
             </SplideSlide>
         </Splide>)
-
 })
 
 export default Carousel;

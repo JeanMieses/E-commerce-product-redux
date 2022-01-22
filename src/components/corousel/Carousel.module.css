@@ -18,7 +18,6 @@
     display: none !important;
 }
 
-
 @media (min-width: 1024px) {
     .carousel {
         width: 40%;
