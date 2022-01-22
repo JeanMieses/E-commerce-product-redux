@@ -1,4 +1,5 @@
 import { useState } from "react";
+import classes from './Product.module.css'
 
 const Product = () => {
     const [counter, setCounter] = useState(0);
@@ -11,7 +12,7 @@ const Product = () => {
         setCounter(previous => previous - 1)
     }
 
-    return (<div>
+    return (<div className={classes.product}>
         <h2>Fall Limited Edition Sneakers </h2>
         <p>
             These low-profile sneakers are your perfect casual wear companion.
@@ -19,7 +20,7 @@ const Product = () => {
             eather can offer.
         </p>
 
-        <div>
+        <div className={classes.price}>
             <div>
                 <p>$125.00</p>
                 <p>50%</p>

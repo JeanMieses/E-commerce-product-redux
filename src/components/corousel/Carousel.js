@@ -1,15 +1,25 @@
 import React from 'react';
 import { Splide, SplideSlide, } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/splide.min.css';
+import imageproduct1 from './../../assets/image-product-1.jpg';
+import imageproduct2 from './../../assets/image-product-2.jpg';
+import imageproduct3 from './../../assets/image-product-3.jpg';
+import imageproduct4 from './../../assets/image-product-4.jpg';
 
 const Carousel = React.forwardRef((props, ref) => {
     return (
         <Splide ref={ref} options={props.configurations}>
             <SplideSlide>
-                <img src="https://femina.wwmindia.com/thumb/content/2021/apr/nature-thumb1619426250.jpg?width=1200&height=900" alt="Image 1" />
+                <img src={imageproduct1} alt="Image 1" />
             </SplideSlide>
             <SplideSlide>
-                <img src="https://thumbor.thedailymeal.com/qIHZKzSilpO8HDBpAy6oz93QpnU=//https://www.theactivetimes.com/sites/default/files/2019/07/10/places_to_visit_lifetime_hero.jpg" alt="Image 2" />
+                <img src={imageproduct2} alt="Image 2" />
+            </SplideSlide>
+            <SplideSlide>
+                <img src={imageproduct3} alt="Image 2" />
+            </SplideSlide>
+            <SplideSlide>
+                <img src={imageproduct4} alt="Image 2" />
             </SplideSlide>
         </Splide>)
 
