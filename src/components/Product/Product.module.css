@@ -190,16 +190,18 @@
   }
 
   .controls {
+    align-self: flex-start;
     width: 508px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
   }
 
   .product .control {
     width: 30%;
     height: 50px;
+    margin-right: 1em;
   }
 
   .product .controls .addToCart {
