@@ -5,8 +5,8 @@ import Carousel from './Carousel';
 const MainCarousel = () => {
     const main = useRef();
     const thumbnail = useRef();
-    const mainCorouselOptions = { height: '620px', autoplay: true, arrow: 'slider', rewind: true, width: 700, gap: '1rem', breakpoints: { 425: { height: '330px', width: '100%' }, 1582: {height: '480px',  width: '73%'} } };
-    const thumbnailOptions = { rewind: false, arrows: false, fixedWidth: 70, fixedHeight: 90, gap: 30, rewind: true, pagination: false, cover: true, isNavigation: true, breakpoints: {1190: {fixedWidth: 60}} };
+    const mainCorouselOptions = { height: '620px', autoplay: true, arrow: 'slider', rewind: true, width: 500, gap: '1rem', breakpoints: { 425: { height: '330px', width: '100%' }, 1582: {height: '480px',  width: '83%'} } };
+    const thumbnailOptions = { rewind: false, arrows: false, fixedWidth: 70, fixedHeight: 90, gap: 30, rewind: true, pagination: false, cover: true, isNavigation: true, breakpoints: {1416: {fixedWidth: 45}} };
 
     useEffect(() => {
         main.current.sync(thumbnail.current.splide);
