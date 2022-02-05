@@ -107,6 +107,10 @@
   text-transform: uppercase;
 }
 
+.product .addToCart:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
 
 @media (min-width: 768px) {
   .product {

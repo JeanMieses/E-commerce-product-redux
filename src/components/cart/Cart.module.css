@@ -56,6 +56,12 @@
   max-height: 100%;
 }
 
+.cart .deleteButton:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease;
+}
+
+
 @media (max-width: 599px) {
   .cart {
     left: 2.5%;

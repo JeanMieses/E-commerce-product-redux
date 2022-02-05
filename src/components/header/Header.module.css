@@ -101,6 +101,15 @@
   height: 29px;
 }
 
+.navigation h1:hover,
+.header .cartItems:hover, 
+.avatar:hover,
+.header nav ul li:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+
 @media (min-width: 1024px) {
   .hide {
     display: block;
