@@ -7,7 +7,8 @@ const cartSlice = createSlice({
         items: [],
         totalPrice: 0,
         totalQuantity: 0,
-        showCart: false
+        showCart: false, 
+        checkout: false
     },
     reducers: {
         add: (state, action) => {
@@ -31,8 +32,11 @@ const cartSlice = createSlice({
 
         showCartToggle: (state) => {
             state.showCart = !state.showCart
-        }
+        },
 
+        checkoutToggle: (state) => {
+            state.checkout = !state.checkout
+        },
 
     }
 })
