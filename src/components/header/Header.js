@@ -30,7 +30,7 @@ const Header = () => {
                     <img src={iconMenu} alt='menu' />
                 </button>
                 
-                <h1>snealers</h1>
+                <h1>sneakers</h1>
 
                 <ul className={showOptions ? '' : classes.hide}>
                     <button onClick={hideOptionsHandler}>X</button>
