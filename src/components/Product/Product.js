@@ -18,6 +18,10 @@ const Product = () => {
     
     const addToCartHandler = () => {
         dispatch(cartActions.add({product: product, quantity: counter }));
+
+        if(counter <= 0) {
+            dispatch(cartActions.remove({id: 'p1'}));
+        }
     }
 
     const increase = () => {
