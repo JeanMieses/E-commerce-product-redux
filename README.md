@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/JeanMieses/E-commerce-product-redux)
-- Live Site URL: (https://objective-torvalds-0a82e3.netlify.app/)
+- Live Site URL: (https://jean-ecommerce-product.netlify.app/)
 
 ## My process
 
