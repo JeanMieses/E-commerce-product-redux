@@ -17,12 +17,18 @@
     background-color: white;
     color: #000;
     border-radius: 10px;
-    width: 70%;
+    width: 80%;
     height: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+
+  .AddedToCart div p {
+    width: 95%;
+    margin-bottom: 1px;
+    text-align: center;
   }
 
   @media (min-width: 768px) {
