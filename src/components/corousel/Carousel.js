@@ -10,16 +10,16 @@ const Carousel = React.forwardRef((props, ref) => {
     return (
         <Splide ref={ref} options={props.configurations}>
             <SplideSlide>
-                <img src={imageproduct1} alt="Image 1" />
+                <img src={imageproduct1} alt="Product-1" />
             </SplideSlide>
             <SplideSlide>
-                <img src={imageproduct2} alt="Image 2" />
+                <img src={imageproduct2} alt="Product-2" />
             </SplideSlide>
             <SplideSlide>
-                <img src={imageproduct3} alt="Image 2" />
+                <img src={imageproduct3} alt="Product-3" />
             </SplideSlide>
             <SplideSlide>
-                <img src={imageproduct4} alt="Image 2" />
+                <img src={imageproduct4} alt="Product-4" />
             </SplideSlide>
         </Splide>)
 })

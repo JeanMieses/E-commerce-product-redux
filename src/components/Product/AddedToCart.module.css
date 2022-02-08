@@ -1,4 +1,4 @@
-.backdrop {
+.AddedToCart {
     position: fixed;
     top: 0;
     left: 0;
@@ -13,7 +13,7 @@
     justify-content: center;
   }
 
-  .backdrop div {
+  .AddedToCart div {
     background-color: white;
     color: #000;
     border-radius: 10px;
@@ -25,24 +25,9 @@
     justify-content: center;
   }
 
-  .backdrop div button {
-    background-color: #ff7d19;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    width: 100px;
-    height: 30px;
-    box-shadow: 2px 2px 3px 1px #ff7d19;
-  }
-
-  .backdrop div p{
-    text-align: center;
-    color: #000;
-  }
-
   @media (min-width: 768px) {
-    .backdrop div {
+    .AddedToCart div {
       width: 400px;
-      height: 400px;
+      height: 200px;
     }
   }
