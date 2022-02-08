@@ -20,7 +20,10 @@ const Product = () => {
 
     const addToCartHandler = () => {
         dispatch(cartActions.add({ product: product, quantity: counter }));
-        setIsAddedToCart(true);
+        
+        if (counter > 0) {
+            setIsAddedToCart(true);
+        }
 
         if (counter <= 0) {
             dispatch(cartActions.remove({ id: 'p1' }));
